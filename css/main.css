@@ -1,0 +1,97 @@
+/*-----MAIN-----*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  
+}
+
+/*-----Heading and navigation-----*/
+
+
+
+.navbar-brand img {
+    width: 120px;
+    
+}
+
+.active {
+    background-color: #e3e6e7;
+}
+
+
+div.container-fluid {
+    background-color: #f0f2f3;
+    border-color: #052742;
+    
+    
+}
+
+div.header {
+    border-color: #052742;
+}
+
+#myNavbar a {
+    color: #052742;
+}
+
+#myNavbar {
+    border-color: #052742;
+}
+
+button.navbar-toggle {
+    background-color: #052742;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: lightgrey !important;
+}
+
+#myNavbar li a:hover {
+    font-size: 15px;
+}
+
+/*-----Main content-----*/
+
+.main img {
+    width: 75%;
+    
+}
+.content {
+    text-align: center;
+}
+
+.content2 {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#subcontent img {
+    width: 200px;
+}
+
+.col-sm-4 {
+    margin-bottom: 20px;
+}
+
+#subcontent p {
+    text-align: left;
+}
+
+#subcontent button {
+    float: left;
+}
+/*Media querys */
+@media (min-width: 775px) {
+    
+    
+        
+       
+        
+    }
+    
+     
+}

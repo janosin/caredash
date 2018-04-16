@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+      
+      <title>CareDash Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type = "text/css">
+      <link rel="stylesheet" type = "text/css" href="http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome/css/font-awesome.css">
+    </head>
+
+
+
+<header>
+    
+    
+         
+    <div class="header">
+          
+
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="home.html"><img src = "imgs/caredash-logo.svg" alt = "logo"></a>
+        </div>
+            
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu Item <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Dropdown Menu Item</a></li>
+                        <li><a href="#">Dropdown Menu Item</a></li>
+                        <li><a href="#">Dropdown Menu Item</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Menu Item</a></li>
+                <li><a href="#">Menu Item</a></li>
+            </ul>
+            
+    </div>
+  </div>
+</nav>
+             
+                
+               
+               
+                
+
+	     
+   		
+      </div>
+
+ </header>
+    
+    <div class = "content">
+        <div class="row" id = "footer-content">
+            <div class="col-sm-8">
+                <div class = "main img">
+                    <img src = "imgs/174074814.jpg" alt = "Medical stock photo">
+                </div>
+            </div>
+            <div class = "col-sm-4">
+                <div id="reg-form">
+                    <form method="POST">
+	                       {{ form.hidden_tag() }}
+	                       {{ form.firstName.label }} {{ form.firstName() }}
+	                       {{ form.lastName.label }} {{ form.lastName() }}
+                            {{ form.email.label }} {{ form.email() }}
+                            {{ form.password.label }} {{ form.password() }}
+                            {{ form.password2.label }} {{ form.password2() }}
+	                       {{ form.submit() }}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "content2">
+        <h2>Reasons to Signup as a Provider on CareDash</h2>
+
+        <div class="row" id = "subcontent">
+            <div class="col-sm-4 sec2">
+                <img src = "imgs/161017-opioidpills-stock.jpg" alt = "Medical stock photo" class = "img1">
+                <h3>Headline</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button>Learn more</button>
+            </div>
+            <div class="col-sm-4 sec2">
+                <img src = "imgs/medical-appointment-doctor-healthcare-40568.jpeg" alt = "Medical stock photo" class = "img2">
+                <h3>Headline</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button>Learn more</button>
+            </div>
+            <div class="col-sm-4 sec2">
+                <img src = "imgs/115556937.jpg" alt = "Medical stock photo" class = "img3">
+                <h3>Headline</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id = "footer">
+        <div class="row" id = "footer-content">
+            <div class="col-sm-2">
+                <h4>CareDash</h4>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Write a review</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h4>Specialists</h4>
+                <ul>
+                    <a href="#"><li>Primary Care Physicians</li></a>
+                    <a href="#"><li>Pediatricians</li></a>
+                    <a href="#"><li>Optometrists</li></a>
+                    <a href="#"><li>Dentists</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-4" id = "icons">
+                <h4>Follow Us</h4>
+                <ul>
+                    <a href="#"><li><i class=" fa fab fa-facebook-square"></i></li></a>
+                    <a href="#"><li><i class="fa fab fa-twitter-square"></i></li></a>
+                    <a href="#"><li><i class="fa fab fa-instagram"></i></li></a>
+                    <a href="#"><li><i class="fa fab fa-pinterest-square"></i></li></a>
+                </ul>
+            
+            </div>
+            <div class="col-sm-4">
+            
+                
+            </div>
+            
+            
+            
+        </div>
+        <div id="copyright">
+                <p>Copyright 2017 CareDash</p>
+            </div>
+    </div>
+</html>
